@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "porterscript"
+version = "0.1.0"
+description = ""
+authors = ["longhuei <longhuei@g.ecc.u-tokyo.ac.jp>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+porter2stemmer = "^1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
